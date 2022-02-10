@@ -1,0 +1,31 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'IBM Plex Mono';
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+
+button{
+    padding:10px;
+    border:0px;
+    border-radius:5px;
+    background: violet;
+    cursor:pointer;
+}
+
+.bg1{
+    background:blue;
+}
+.bg2{
+    background:red;
+}
+.bg3{
+    background:black;
+}
