@@ -7,7 +7,7 @@ let lastX;
 fundo.classList.add('bg0')
 
     btn.addEventListener('click', (event) =>{
-		lastX = x; //armazenamos o �ltimo valor de X
+		lastX = x; //armazenamos o último valor de X
 
 		//Se X for igual a quantidade de itens do array, zeramos e começamos de novo (loop)
 	    if (x == classes.length) x = 0
